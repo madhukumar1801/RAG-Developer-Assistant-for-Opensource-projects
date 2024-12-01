@@ -1,0 +1,14 @@
+chroma_server:
+  host: 0.0.0.0
+  port: 8000
+  ssl: false
+
+persistence:
+  directory: /chroma/chroma
+
+telemetry:
+  enabled: false
+
+security:
+  anonymous_telemetry: false
+  ssl: false

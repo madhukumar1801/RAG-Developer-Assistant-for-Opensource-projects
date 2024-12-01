@@ -1,0 +1,20 @@
+chroma_server:
+  host: 0.0.0.0
+  port: 8000
+  ssl: false
+  cors:
+    enabled: true
+    allow_origins: ["*"]
+    allow_methods: ["*"]
+    allow_headers: ["*"]
+
+persistence:
+  directory: /chroma/data
+
+telemetry:
+  enabled: false
+
+security:
+  anonymous_telemetry: false
+  ssl: false
+  auth_credentials: {}
